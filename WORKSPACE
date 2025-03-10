@@ -21,7 +21,7 @@ load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
 http_archive(
     name = "io_istio_proxy",
-    strip_prefix = "proxy-1.17",
+    strip_prefix = "istio-proxy-tracing-release-1.17",
     sha256 = "1645e49eb540517fec52728513f6d8b8f68a160eb4c0482a3e9c6352cfb51be7",
     url = "https://github.com/asiazhang/istio-proxy/archive/refs/tags/tracing-release-1.17.tar.gz",
 )
